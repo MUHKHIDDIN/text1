@@ -5,14 +5,28 @@
 .watch__content_block{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-
+.watch__img:hover{
+  border: 2px solid blue;
+  padding: 20px;
+  transition: all 1s ease-out;
+}
+.watch__content:hover{
+  border: 2px solid blue;
+ padding: 20px;
+ transition: all 1s ease-out;
+}
 .watch__title{
 font-size: 38px;
 font-weight: 800;
 line-height: 50px;
 color: #F9F9F9;
 margin-bottom: 24px;
+&:hover{
+  color: crimson;
+  transition: all 1s ease-out;
+}
 }
 .watch__text1{
   font-size: 20px;
@@ -21,7 +35,10 @@ margin-bottom: 24px;
   letter-spacing: 0.20000000298023224px;
   color: #C0C0C0;
   margin-bottom: 35px;
-
+  &:hover{
+    color: crimson;
+    transition: all 1s ease-out;
+  }
 }
 .watch__text2{
   font-size: 20px;
@@ -30,6 +47,10 @@ margin-bottom: 24px;
   letter-spacing: 0.20000000298023224px;
   color: #C0C0C0;
   margin-bottom: 20px;
+  &:hover{
+    color: crimson;
+    transition: all 1s ease-out;
+  }
 }
 
 .watch__text3{
@@ -39,8 +60,13 @@ margin-bottom: 24px;
   letter-spacing: 0.20000000298023224px;
   color: #C0C0C0;
   margin-bottom: 20px;
+  &:hover{
+    color: crimson;
+    transition: all 1s ease-out;
+  }
 }
 
 .watch__content{
   max-width: 548px;
+
 }

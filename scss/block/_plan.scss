@@ -11,6 +11,10 @@
   color: #f9f9f9;
   margin-bottom: 8px;
 }
+.plan__title:hover{
+  color: blue;
+  
+}
 .plan__text {
   font-size: 20px;
   font-weight: 400;
@@ -19,10 +23,17 @@
   text-align: center;
   color: #c0c0c0;
   margin-bottom: 26px;
+  &:hover{
+    color: #ff370f;
+  }
 }
 .plan-link {
   margin-left: 550px;
   margin-bottom: 24px;
+}
+.plan-link:hover{
+  border-radius: 60%;
+  border: 2px solid blue;
 }
 .plan__content_block {
   max-width: 380px;
@@ -44,6 +55,9 @@
   color: #f9f9f9;
   max-width: 126px;
   margin-bottom: 16px;
+  &:hover{
+    color: #ff370f;
+  }
 }
 .title__plan2 {
   font-size: 27px;
@@ -52,6 +66,9 @@
   color: #f9f9f9;
   max-width: 126px;
   margin-bottom: 16px;
+  &:hover{
+    color: #ff370f;
+  }
 }
 .title__plan3 {
   font-size: 27px;
@@ -60,6 +77,9 @@
   color: #f9f9f9;
   max-width: 190px;
   margin-bottom: 16px;
+  &:hover{
+    color: #ff370f;
+  }
 }
 
 .plan__span {
@@ -67,7 +87,12 @@
   font-weight: 400;
   line-height: 26px;
   color: #ececec;
+  &:hover{
+    color: #ff370f;
+    transition: all 1s ease-out;
+  }
 }
+
 .text__plan {
   font-size: 16px;
   font-weight: 400;
@@ -77,6 +102,10 @@
   max-width: 249px;
   margin-left: 26px;
   margin-right: 14px;
+  &:hover{
+    color: #ff370f;
+    transition: all 1s ease-out;
+  }
 }
 .plan__link_block {
   max-width: 290px;
@@ -97,10 +126,22 @@
   background-color: #0063e5;
   border-radius: 4px;
 }
+.link__plan:hover{
+  background-color: rgb(241, 12, 12);
+  color: rgb(253, 251, 251);
+  border-radius: 50%;
+  transition: all 1s ease-out;
+}
 .plan__content_block {
   border: 2px solid rgb(233, 233, 233);
   margin-bottom: 15px;
-}
+  &:hover{
+background-repeat: no-repeat;
+background-image: url(../img/header-bg.png);
+transition: all 1s ease-out;
+  }
+  }
+
 .plan__block {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -115,10 +156,14 @@
   max-width: 225px;
   margin-left: 550px;
   text-align: center;
-
+  &:hover{
+    color: #ff370f;
+  }
  
 }
 .span__plan {
   color: #fff;
-
+&:hover{
+  color: #270fff;
+}
 }

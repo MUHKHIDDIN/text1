@@ -14,6 +14,10 @@
   line-height: 30px;
   color: #f9f9f9;
 }
+.hero__link:hover{
+  background-color: blue;
+  color: rgb(33, 248, 5);
+}
 .hero__text {
   margin-bottom: 12px;
 }
@@ -25,8 +29,13 @@
   margin-left: 443px;
   margin-bottom: 24px;
 }
-.hero_img{
-  display: block;
+.hero__span:hover{
+  background-color: rgb(80, 240, 21);
+}
+.hero_img:hover{
+border: 2px solid blue;
+transition: all 1s ease-out;
+padding: 20px;
 }
 .hero__block{
   display: grid;
